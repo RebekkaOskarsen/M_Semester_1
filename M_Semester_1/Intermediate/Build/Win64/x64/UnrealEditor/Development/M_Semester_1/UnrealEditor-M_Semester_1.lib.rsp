@@ -7,7 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\M_Semester_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\M_Semester_1.init.gen.cpp.obj"
+"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerCharacter.gen.cpp.obj"
+"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerController.gen.cpp.obj"
 "C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\M_Semester_1.cpp.obj"
 "C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PerModuleInline.gen.cpp.obj"
+"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerCharacter.cpp.obj"
+"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerController.cpp.obj"
 "C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\Default.rc2.res"
 /OUT:"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\UnrealEditor-M_Semester_1.lib"

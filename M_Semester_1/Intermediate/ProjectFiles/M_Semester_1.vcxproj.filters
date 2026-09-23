@@ -11,6 +11,7 @@
     <None Include="..\..\Source\M_Semester_1Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,24 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\M_Semester_1\M_Semester_1.h">
       <Filter>Source\M_Semester_1</Filter>
+    </ClCompile>
+    <Filter Include="Source\M_Semester_1\Private">
+      <UniqueIdentifier>{23E09D26-32F8-320E-8399-2D1B4E8D0B98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\M_Semester_1\Private\Character">
+      <UniqueIdentifier>{C535B15B-946E-3DCB-8DB1-D6D1483EA911}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerCharacter.cpp">
+      <Filter>Source\M_Semester_1\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerCharacter.h">
+      <Filter>Source\M_Semester_1\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerController.cpp">
+      <Filter>Source\M_Semester_1\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerController.h">
+      <Filter>Source\M_Semester_1\Private\Character</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

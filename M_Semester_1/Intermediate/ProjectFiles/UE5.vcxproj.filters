@@ -10777,6 +10777,30 @@
     <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources\Icon64.png">
       <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources</Filter>
     </None>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18">
+      <UniqueIdentifier>{4D77FDD0-3473-3255-A881-048A9ABC976D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\PaperZD.uplugin">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Config">
+      <UniqueIdentifier>{C39F9039-E411-364A-A01D-A86896169AD8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Config\BasePaperZD.ini">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Config\DefaultPaperZD.ini">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Config\FilterPlugin.ini">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Config</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Resources">
+      <UniqueIdentifier>{3CFF36C9-6907-3DF3-975C-7B46DD3061C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Resources\Icon128.png">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Resources</Filter>
+    </None>
     <Filter Include="Plugins\Media">
       <UniqueIdentifier>{EFC0DBFF-6FDA-393C-AC79-85C04FCB8860}</UniqueIdentifier>
     </Filter>
@@ -187659,6 +187683,1029 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SVerticalLoadingWidget.h">
       <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source">
+      <UniqueIdentifier>{B92F66B2-EA9B-30FB-8D97-65EC0503E11B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor">
+      <UniqueIdentifier>{527D19B5-723F-3134-8D3A-B4E6812561A9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\PaperZDEditor.Build.cs">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private">
+      <UniqueIdentifier>{1CC34732-55DD-3731-9154-ADDEC51CC119}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\PaperZDEditor.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions">
+      <UniqueIdentifier>{E674FF0C-B4AF-3320-A427-B274F5902270}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions\AssetTypeActions_PaperZDAnimBP.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions\AssetTypeActions_PaperZDAnimBP.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions\AssetTypeActions_ZDAnimationSource.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions\AssetTypeActions_ZDAnimationSource.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions\AssetTypeActions_ZDAnimSeq.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions\AssetTypeActions_ZDAnimSeq.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\AssetTypeActions</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers">
+      <UniqueIdentifier>{8FDC0B9E-6EDE-35F9-B93C-3E32E8E5A34E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\PaperZDAnimBPCompilerContext.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\PaperZDAnimBPCompilerContext.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access">
+      <UniqueIdentifier>{CEC2A51B-6C0C-399C-B1E7-9F396A4B4AF0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access\PaperZDAnimBPCompilerAccess.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access\PaperZDAnimBPCompilerAccess.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access\PaperZDAnimBPGeneratedClassAccess.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access\PaperZDAnimBPGeneratedClassAccess.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Access</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles">
+      <UniqueIdentifier>{BFA92140-6C3F-30DD-B99E-104C4527BB5E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\IPaperZDAnimBPCompilerHandle.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\PaperZDAnimBPCompilerHandle_Base.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\PaperZDAnimBPCompilerHandle_Base.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\PaperZDAnimBPCompilerHandle_CacheAnimation.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\PaperZDAnimBPCompilerHandle_CacheAnimation.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\PaperZDAnimBPCompilerHandle_StateMachine.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles\PaperZDAnimBPCompilerHandle_StateMachine.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Compilers\Handles</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors">
+      <UniqueIdentifier>{5CFAAD72-5681-3073-B3EB-7A8AF9659311}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimationSourceEditor.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimationSourceEditor.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimationSourceViewportClient.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimationSourceViewportClient.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimationTrackEditor.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimationTrackEditor.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimBPEditor.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\PaperZDAnimBPEditor.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline">
+      <UniqueIdentifier>{14B66A71-3DDD-371B-830F-81366CDF9DDE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimModel.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimModel.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimModel_AnimSequence.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimModel_AnimSequence.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimelineTrack.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimelineTrack.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimelineTrack_Notifies.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimelineTrack_Notifies.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimelineTrack_NotifiesPanel.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimelineTrack_NotifiesPanel.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimeSliderController.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\PaperZDAnimTimeSliderController.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimOutliner.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimOutliner.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimOutlinerItem.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimOutlinerItem.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTimeline.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTimeline.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTimelineOverlay.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTimelineOverlay.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTimelineSplitterOverlay.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTimelineSplitterOverlay.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTrack.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTrack.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTrackArea.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline\SPaperZDAnimTrackArea.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\AnimTimeline</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations">
+      <UniqueIdentifier>{F2257664-F636-3E8E-8601-4747A7EF6832}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\AnimGraphNodeDetailCustomization.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\AnimGraphNodeDetailCustomization.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\AnimSequenceDetailCustomization.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\AnimSequenceDetailCustomization.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\FlipbookAnimDataSourceCustomization.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\FlipbookAnimDataSourceCustomization.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\PaperZDComponentReferenceCustomization.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\TransitionGraphNodeDetailCustomization.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations\TransitionGraphNodeDetailCustomization.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\DetailCustomizations</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate">
+      <UniqueIdentifier>{B1DC9314-FEF5-3D51-B6EA-43F9F4B258FB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimAssetBrowser.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimAssetBrowser.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimationSourceNotifies.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimationSourceNotifies.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimationSourceViewport.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimationSourceViewport.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimDataSourceGrid.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimDataSourceGrid.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimEditorBase.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimEditorBase.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimNotifyPanel.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimNotifyPanel.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimSequenceEditor.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDAnimSequenceEditor.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDComponentSelector.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDComponentSelector.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDComponentTreeView.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDComponentTreeView.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDConfirmDialog.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDConfirmDialog.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDModeSelectorWidget.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SPaperZDModeSelectorWidget.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SResetSequenceToDefault.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate\SResetSequenceToDefault.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Slate</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util">
+      <UniqueIdentifier>{C0A98524-9024-32DA-9B0D-C24BB194A436}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDAnimationModeTabSpawners.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDAnimationModeTabSpawners.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorCommands.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorCommands.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorDelegates.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorSettings.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorSettings.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorStyle.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorStyle.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorUtils.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDEditorUtils.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDRuntimeEditorProxy.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDRuntimeEditorProxy.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDSlateSupport.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util\PaperZDVersionCompatibility.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Editors\Util</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories">
+      <UniqueIdentifier>{24352396-9E98-3496-AAD0-E102CC3A336E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimationSkinFactory.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimationSkinFactory.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimationSourceFactory.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimationSourceFactory.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimBPFactory.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimBPFactory.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimSequenceFactory.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories\PaperZDAnimSequenceFactory.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Factories</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs">
+      <UniqueIdentifier>{A10744E2-40F6-30A8-90F1-B543C3CFCE51}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraph.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraph.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraphConnectionDrawingPolicy.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraphConnectionDrawingPolicy.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraphSchema.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraphSchema.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraphSchema_Transitional.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimGraphSchema_Transitional.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimTransitionGraph.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimTransitionGraph.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimTransitionGraphSchema.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDAnimTransitionGraphSchema.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDGraphFactory.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDGraphFactory.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDNotifyGraph.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDNotifyGraph.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDNotifyGraphSchema.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDNotifyGraphSchema.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDStateMachineConnectionDrawingPolicy.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDStateMachineConnectionDrawingPolicy.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDStateMachineGraph.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDStateMachineGraph.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDStateMachineSchema.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\PaperZDStateMachineSchema.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes">
+      <UniqueIdentifier>{5BF8B0BB-C8B5-3DAF-9F2C-ABE7FC7A6AFB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_Base.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_Base.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_CacheAnimation.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_CacheAnimation.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_LayerAnimations.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_LayerAnimations.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_OverrideSlot.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_OverrideSlot.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_PlaySequence.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_PlaySequence.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_RandomPlayer.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_RandomPlayer.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SelectByBool.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SelectByBool.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SelectByEnum.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SelectByEnum.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SelectByInt.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SelectByInt.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SetDirectionality.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_SetDirectionality.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_Sink.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_Sink.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_StateMachine.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_StateMachine.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_UseCachedAnimation.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDAnimGraphNode_UseCachedAnimation.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDK2Node_AnimGetter.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDK2Node_AnimGetter.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Conduit.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Conduit.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Jump.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Jump.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Root.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Root.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_State.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_State.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_TransBase.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_TransBase.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Transition.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDStateGraphNode_Transition.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDTransitionGraphNode_Result.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\PaperZDTransitionGraphNode_Result.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate">
+      <UniqueIdentifier>{FE0A7A49-CAA4-3F37-A5B5-3D50A0349AC8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDAnimGraphNode_Sink.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDAnimGraphNode_Sink.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDAnimGraphNode_StateMachine.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDAnimGraphNode_StateMachine.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDGraphPin_AnimDataLink.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDGraphPin_AnimDataLink.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Conduit.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Conduit.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Jump.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Jump.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Root.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Root.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_State.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_State.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Transition.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate\SPaperZDStateGraphNode_Transition.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Graphs\Nodes\Slate</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools">
+      <UniqueIdentifier>{7EBC08DC-6F10-3F62-B8F2-E5F7D2C426F5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDContentBrowserExtension.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDContentBrowserExtension.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDExtractFlipbookFromTextureDialog.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDExtractFlipbookFromTextureDialog.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDExtractFlipbookFromTextureSettings.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDToolViewport.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDToolViewport.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDToolViewportClient.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools\PaperZDToolViewportClient.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Private\Tools</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Public">
+      <UniqueIdentifier>{D79CC857-368D-3870-A632-3E17BD81C65D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Public\PaperZDEditor.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZDEditor\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD">
+      <UniqueIdentifier>{E97A4CF6-D949-3CD2-A92A-E8C80951348D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\PaperZD.Build.cs">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private">
+      <UniqueIdentifier>{9449C2CB-A169-3B4C-80E6-63C6293FC462}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\IPaperZDAnimInstanceManager.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\IPaperZDEditorProxy.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZD.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDAnimationComponent.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDAnimBP.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDAnimBPGeneratedClass.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDAnimInstance.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDCharacter.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDCustomVersion.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\PaperZDPlaySlotOverrideAction.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes">
+      <UniqueIdentifier>{9C6698C8-E260-3FE0-8FFE-CEB5CDAABB7C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_Base.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_CacheAnimation.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_LayerAnimations.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_OverrideSlot.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_PlaySequence.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_RandomPlayer.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_SelectByBool.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_SelectByEnum.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_SelectByInt.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_SetDirectionality.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_Sink.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_StateMachine.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimNode_UseCachedAnimation.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes\PaperZDAnimStateMachine.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimNodes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences">
+      <UniqueIdentifier>{B6F7F1A3-EF15-3A70-BAFC-CF9BE6537E3E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\PaperZDAnimSequence.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\PaperZDAnimSequence_Flipbook.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\PaperZDFlipbookAnimDataSource.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players">
+      <UniqueIdentifier>{E9E38E87-DF3D-306A-9EBE-73A179BC539A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players\PaperZDAnimationPlaybackData.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players\PaperZDAnimPlayer.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players\PaperZDPlaybackHandle.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players\PaperZDPlaybackHandle_Flipbook.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Players</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Skins">
+      <UniqueIdentifier>{CAAB8124-AFB6-3051-AAD2-4BBBAAEEFAB6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Skins\PaperZDAnimationSkin.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Skins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Skins\PaperZDAnimationSkin_Flipbook.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Skins</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Sources">
+      <UniqueIdentifier>{C341D7E8-A7E2-31A2-8BD4-9A070D4E3D72}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Sources\PaperZDAnimationSource.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Sources\PaperZDAnimationSource_Flipbook.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\AnimSequences\Sources</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies">
+      <UniqueIdentifier>{30CDCF96-C540-3037-A50B-DC567D3E22C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotify.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotifyCustom.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotifyState.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotify_Base.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotify_NiagaraEffect.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotify_ParticleEffect.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDAnimNotify_PlaySound.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDNotifyState_NiagaraEffect.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies\PaperZDNotifyState_ParticleEffect.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Notifies</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer">
+      <UniqueIdentifier>{CE47B02D-0D4A-37BF-A2F1-2D905814C7FF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer\IPaperZDSequencerSource.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer\PaperZDMovieSceneAnimationSection.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer\PaperZDMovieSceneAnimationTemplate.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer\PaperZDMovieSceneAnimationTrack.cpp">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Private\Sequencer</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public">
+      <UniqueIdentifier>{93D19F14-9D3F-3245-9CE2-0AACA1E1F4F2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\IPaperZDAnimInstanceManager.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\IPaperZDEditorProxy.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZD.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDAnimationComponent.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDAnimBP.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDAnimBPGeneratedClass.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDAnimInstance.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDCharacter.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDComponentReference.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDCustomVersion.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDPlaySlotOverrideAction.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\PaperZDStats.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes">
+      <UniqueIdentifier>{1E448EFE-CC5B-322E-8037-BF2A0C3A5955}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_Base.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_CacheAnimation.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_LayerAnimations.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_OverrideSlot.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_PlaySequence.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_RandomPlayer.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_SelectByBool.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_SelectByEnum.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_SelectByInt.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_SetDirectionality.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_Sink.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_StateMachine.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimNode_UseCachedAnimation.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes\PaperZDAnimStateMachine.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimNodes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences">
+      <UniqueIdentifier>{B07FEDB7-22F7-30C0-ABB5-971B552437B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\PaperZDAnimSequence.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\PaperZDAnimSequence_Flipbook.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\PaperZDFlipbookAnimDataSource.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players">
+      <UniqueIdentifier>{B7255A9B-9ABC-3383-AF4D-D2F72C3E9B56}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players\PaperZDAnimationPlaybackData.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players\PaperZDAnimPlayer.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players\PaperZDLayerLink.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players\PaperZDPlaybackHandle.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players\PaperZDPlaybackHandle_Flipbook.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Players</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Skins">
+      <UniqueIdentifier>{446D1F99-592F-33C9-ABF9-7AEBE597CE52}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Skins\PaperZDAnimationSkin.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Skins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Skins\PaperZDAnimationSkin_Flipbook.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Skins</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Sources">
+      <UniqueIdentifier>{CB96ED25-250B-336D-909D-EBCDB7386D59}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Sources\PaperZDAnimationSource.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Sources\PaperZDAnimationSource_Flipbook.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\AnimSequences\Sources</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies">
+      <UniqueIdentifier>{047E64BC-5130-3DEB-B581-BEF52DBF784D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotify.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotifyCustom.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotifyState.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotify_Base.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotify_NiagaraEffect.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotify_ParticleEffect.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDAnimNotify_PlaySound.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDNotifyState_NiagaraEffect.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies\PaperZDNotifyState_ParticleEffect.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Notifies</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer">
+      <UniqueIdentifier>{DED44B46-07D5-37E7-A9DD-9FE7252A4D78}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer\IPaperZDSequencerSource.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer\PaperZDMovieSceneAnimationSection.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer\PaperZDMovieSceneAnimationTemplate.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer\PaperZDMovieSceneAnimationTrack.h">
+      <Filter>Plugins\Marketplace\PaperZDb97529903aafV18\Source\PaperZD\Public\Sequencer</Filter>
     </ClCompile>
     <Filter Include="Plugins\Media\AjaMedia\Source">
       <UniqueIdentifier>{DE248E0B-1A51-351E-A15C-AD2EE157DE63}</UniqueIdentifier>

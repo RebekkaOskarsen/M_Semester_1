@@ -7,7 +7,11 @@
 		{
 			"Name": "M_Semester_1",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"PaperZD",
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
