@@ -5,25 +5,51 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "M_Semester_1/Private/Character/PaperZDPlayerController.h"
+#include "Character/PaperZDPlayerController.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodePaperZDPlayerController() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 M_SEMESTER_1_API UClass* Z_Construct_UClass_APaperZDPlayerController();
 M_SEMESTER_1_API UClass* Z_Construct_UClass_APaperZDPlayerController_NoRegister();
 UPackage* Z_Construct_UPackage__Script_M_Semester_1();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class APaperZDPlayerController
+// ********** Begin Class APaperZDPlayerController *************************************************
 void APaperZDPlayerController::StaticRegisterNativesAPaperZDPlayerController()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APaperZDPlayerController);
+FClassRegistrationInfo Z_Registration_Info_UClass_APaperZDPlayerController;
+UClass* APaperZDPlayerController::GetPrivateStaticClass()
+{
+	using TClass = APaperZDPlayerController;
+	if (!Z_Registration_Info_UClass_APaperZDPlayerController.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("PaperZDPlayerController"),
+			Z_Registration_Info_UClass_APaperZDPlayerController.InnerSingleton,
+			StaticRegisterNativesAPaperZDPlayerController,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_APaperZDPlayerController.InnerSingleton;
+}
 UClass* Z_Construct_UClass_APaperZDPlayerController_NoRegister()
 {
-	return APaperZDPlayerController::StaticClass();
+	return APaperZDPlayerController::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_APaperZDPlayerController_Statics
 {
@@ -60,7 +86,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_APaperZDPlayerControlle
 	0,
 	0,
 	0,
-	0x008002A4u,
+	0x008003A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APaperZDPlayerController_Statics::Class_MetaDataParams), Z_Construct_UClass_APaperZDPlayerController_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_APaperZDPlayerController()
@@ -71,24 +97,21 @@ UClass* Z_Construct_UClass_APaperZDPlayerController()
 	}
 	return Z_Registration_Info_UClass_APaperZDPlayerController.OuterSingleton;
 }
-template<> M_SEMESTER_1_API UClass* StaticClass<APaperZDPlayerController>()
-{
-	return APaperZDPlayerController::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(APaperZDPlayerController);
 APaperZDPlayerController::~APaperZDPlayerController() {}
-// End Class APaperZDPlayerController
+// ********** End Class APaperZDPlayerController ***************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h__Script_M_Semester_1_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APaperZDPlayerController, APaperZDPlayerController::StaticClass, TEXT("APaperZDPlayerController"), &Z_Registration_Info_UClass_APaperZDPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APaperZDPlayerController), 1155718376U) },
+		{ Z_Construct_UClass_APaperZDPlayerController, APaperZDPlayerController::StaticClass, TEXT("APaperZDPlayerController"), &Z_Registration_Info_UClass_APaperZDPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APaperZDPlayerController), 2731110496U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h_1335701418(TEXT("/Script/M_Semester_1"),
-	Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h__Script_M_Semester_1_2868277063(TEXT("/Script/M_Semester_1"),
+	Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h__Script_M_Semester_1_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerController_h__Script_M_Semester_1_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,3 +1,6 @@
-// PCH for Runtime/Slate/Public/SlateSharedPCH.h
-#include "C:/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/M_Semester_1Editor/Development/Slate/SharedDefinitions.Slate.Cpp20.h"
-#include "Runtime/Slate/Public/SlateSharedPCH.h"
+// PCH for SlateSharedPCH.h
+#include "SharedDefinitions.Slate.Cpp20.h"
+#include "SlateSharedPCH.h"
+#ifdef __ISPC_ALIGN__
+#error ispc.generated.h files are not allowed in precompiled headers (This is a build time optimization to reduce action dependencies)
+#endif

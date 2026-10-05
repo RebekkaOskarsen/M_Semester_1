@@ -5,11 +5,13 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "M_Semester_1/Private/Character/PaperZDPlayerCharacter.h"
+#include "Character/PaperZDPlayerCharacter.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodePaperZDPlayerCharacter() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
@@ -18,16 +20,40 @@ M_SEMESTER_1_API UClass* Z_Construct_UClass_APaperZDPlayerCharacter();
 M_SEMESTER_1_API UClass* Z_Construct_UClass_APaperZDPlayerCharacter_NoRegister();
 PAPERZD_API UClass* Z_Construct_UClass_APaperZDCharacter();
 UPackage* Z_Construct_UPackage__Script_M_Semester_1();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class APaperZDPlayerCharacter
+// ********** Begin Class APaperZDPlayerCharacter **************************************************
 void APaperZDPlayerCharacter::StaticRegisterNativesAPaperZDPlayerCharacter()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APaperZDPlayerCharacter);
+FClassRegistrationInfo Z_Registration_Info_UClass_APaperZDPlayerCharacter;
+UClass* APaperZDPlayerCharacter::GetPrivateStaticClass()
+{
+	using TClass = APaperZDPlayerCharacter;
+	if (!Z_Registration_Info_UClass_APaperZDPlayerCharacter.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("PaperZDPlayerCharacter"),
+			Z_Registration_Info_UClass_APaperZDPlayerCharacter.InnerSingleton,
+			StaticRegisterNativesAPaperZDPlayerCharacter,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_APaperZDPlayerCharacter.InnerSingleton;
+}
 UClass* Z_Construct_UClass_APaperZDPlayerCharacter_NoRegister()
 {
-	return APaperZDPlayerCharacter::StaticClass();
+	return APaperZDPlayerCharacter::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_APaperZDPlayerCharacter_Statics
 {
@@ -107,7 +133,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_APaperZDPlayerCharacter
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_APaperZDPlayerCharacter_Statics::PropPointers),
 	0,
-	0x008000A4u,
+	0x008001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APaperZDPlayerCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_APaperZDPlayerCharacter_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_APaperZDPlayerCharacter()
@@ -118,24 +144,21 @@ UClass* Z_Construct_UClass_APaperZDPlayerCharacter()
 	}
 	return Z_Registration_Info_UClass_APaperZDPlayerCharacter.OuterSingleton;
 }
-template<> M_SEMESTER_1_API UClass* StaticClass<APaperZDPlayerCharacter>()
-{
-	return APaperZDPlayerCharacter::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(APaperZDPlayerCharacter);
 APaperZDPlayerCharacter::~APaperZDPlayerCharacter() {}
-// End Class APaperZDPlayerCharacter
+// ********** End Class APaperZDPlayerCharacter ****************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h__Script_M_Semester_1_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APaperZDPlayerCharacter, APaperZDPlayerCharacter::StaticClass, TEXT("APaperZDPlayerCharacter"), &Z_Registration_Info_UClass_APaperZDPlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APaperZDPlayerCharacter), 1263309646U) },
+		{ Z_Construct_UClass_APaperZDPlayerCharacter, APaperZDPlayerCharacter::StaticClass, TEXT("APaperZDPlayerCharacter"), &Z_Registration_Info_UClass_APaperZDPlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APaperZDPlayerCharacter), 3951267227U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h_1284691190(TEXT("/Script/M_Semester_1"),
-	Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h__Script_M_Semester_1_2348030154(TEXT("/Script/M_Semester_1"),
+	Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h__Script_M_Semester_1_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_satur_OneDrive_Documents_GitHub_M_Semester_1_M_Semester_1_Source_M_Semester_1_Private_Character_PaperZDPlayerCharacter_h__Script_M_Semester_1_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

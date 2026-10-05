@@ -1,17 +1,18 @@
-"C:\M_Semester_1\M_Semester_1\Source\M_Semester_1\Private\Character\PaperZDPlayerController.cpp"
-/FI"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\M_Semester_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\Definitions.M_Semester_1.h"
-/Yu"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\M_Semester_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\M_Semester_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerController.cpp.obj"
-/experimental:log "C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerController.cpp.sarif"
-/sourceDependencies "C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\PaperZDPlayerController.cpp.dep.json"
-@"C:\M_Semester_1\M_Semester_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\M_Semester_1\M_Semester_1.Shared.rsp"
+"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Source/M_Semester_1/Private/Character/PaperZDPlayerController.cpp"
+@"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/UnrealEditor/Development/M_Semester_1/M_Semester_1.Shared.rsp"
+/FI"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/M_Semester_1Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h"
+/FI"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/UnrealEditor/Development/M_Semester_1/Definitions.M_Semester_1.h"
+/Yu"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/M_Semester_1Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h"
+/Fp"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/M_Semester_1Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h.pch"
+/Fo"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/UnrealEditor/Development/M_Semester_1/PaperZDPlayerController.cpp.obj"
+/experimental:log "C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/UnrealEditor/Development/M_Semester_1/PaperZDPlayerController.cpp.sarif"
+/sourceDependencies "C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Intermediate/Build/Win64/x64/UnrealEditor/Development/M_Semester_1/PaperZDPlayerController.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
 /FC
+/diagnostics:caret
 /c
 /Gw
 /Gy
@@ -39,15 +40,14 @@
 /fp:fast
 /Zo
 /Zp8
+/W4
 /we4456
 /we4458
 /we4459
-/we4668
 /wd4244
 /wd4838
 /TP
 /GR-
-/W4
 /std:c++20
 /Zc:preprocessor
 /wd5054

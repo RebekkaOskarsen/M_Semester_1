@@ -1,5 +1,10 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.M_Semester_1.gen.cpp.obj": [
+			"M_Semester_1.init.gen.cpp.obj",
+			"PaperZDPlayerCharacter.gen.cpp.obj",
+			"PaperZDPlayerController.gen.cpp.obj"
+		]
 	}
 }

@@ -36,9 +36,9 @@
     <ClCompile Include="..\..\Source\M_Semester_1\M_Semester_1.cpp">
       <Filter>Source\M_Semester_1</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\M_Semester_1\M_Semester_1.h">
+    <ClInclude Include="..\..\Source\M_Semester_1\M_Semester_1.h">
       <Filter>Source\M_Semester_1</Filter>
-    </ClCompile>
+    </ClInclude>
     <Filter Include="Source\M_Semester_1\Private">
       <UniqueIdentifier>{23E09D26-32F8-320E-8399-2D1B4E8D0B98}</UniqueIdentifier>
     </Filter>
@@ -48,14 +48,14 @@
     <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerCharacter.cpp">
       <Filter>Source\M_Semester_1\Private\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerCharacter.h">
+    <ClInclude Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerCharacter.h">
       <Filter>Source\M_Semester_1\Private\Character</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerController.cpp">
       <Filter>Source\M_Semester_1\Private\Character</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerController.h">
+    <ClInclude Include="..\..\Source\M_Semester_1\Private\Character\PaperZDPlayerController.h">
       <Filter>Source\M_Semester_1\Private\Character</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
