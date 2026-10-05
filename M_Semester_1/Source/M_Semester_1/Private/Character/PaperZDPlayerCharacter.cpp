@@ -19,6 +19,9 @@ APaperZDPlayerCharacter::APaperZDPlayerCharacter()
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->TargetArmLength = 1200.f;
 	CameraBoom->bDoCollisionTest = false;
+
+	//Zoom settings
+	TargetZoom = CameraBoom->TargetArmLength;
 	
 	//Isometric perspective angle
 	CameraBoom->SetRelativeRotation(FRotator(-45.f, -45.f, 0.f));
@@ -26,6 +29,7 @@ APaperZDPlayerCharacter::APaperZDPlayerCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	FollowCamera->bUsePawnControlRotation = false;
+
 	FollowCamera->ProjectionMode = ECameraProjectionMode::Perspective;
 
 }
@@ -43,6 +47,15 @@ void APaperZDPlayerCharacter::BeginPlay()
 	}
 }
 
+void APaperZDPlayerCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+	//Zooming smoothly
+	CameraBoom->TargetArmLength = FMath::FInterpTo
+	(CameraBoom->TargetArmLength, TargetZoom, DeltaTime, ZoomSpeed);
+}
+
 void APaperZDPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -50,6 +63,8 @@ void APaperZDPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &APaperZDPlayerCharacter::Move);
+		
+		EnhancedInputComponent->BindAction(ZoomAction, ETriggerEvent::Triggered, this, &APaperZDPlayerCharacter::Zoom);
 	}
 
 }
@@ -73,4 +88,13 @@ void APaperZDPlayerCharacter::Move(const FInputActionValue& Value)
 	AddMovementInput(ForwardDirection, MovementVector.Y);
 	AddMovementInput(RightDirection, MovementVector.X);
 	
+}
+
+void APaperZDPlayerCharacter::Zoom(const FInputActionValue& Value)
+{
+	const float ZoomValue = Value.Get<float>(); 
+
+	TargetZoom -= ZoomValue * ZoomStep;
+
+	TargetZoom = FMath::Clamp(TargetZoom, MinZoom, MaxZoom); //Clamp to not go over min and max zoom values
 }
