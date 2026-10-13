@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/Levels/L_MainLevel.umap",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/bench.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/bush.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/gate.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/gate_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/house.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/house_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/stop_sign.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/street_light.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/trashbag.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/truck.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/truck_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/road.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/road_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/wheat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/wheat_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/street_light_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/doghouse.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/doghouse_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/bench_Mat.uasset"
+			]
+		}
+	]
+}
