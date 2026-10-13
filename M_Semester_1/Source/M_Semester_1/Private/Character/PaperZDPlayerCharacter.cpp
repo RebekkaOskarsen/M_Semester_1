@@ -54,6 +54,26 @@ void APaperZDPlayerCharacter::Tick(float DeltaTime)
 	//Zooming smoothly
 	CameraBoom->TargetArmLength = FMath::FInterpTo
 	(CameraBoom->TargetArmLength, TargetZoom, DeltaTime, ZoomSpeed);
+
+	//Adjusting the camera pitch based on the zoom level
+	const float ZoomAplha = FMath::GetMappedRangeValueClamped(FVector2D(MinZoom, MaxZoom),
+		FVector2D(0.f, 1.f), CameraBoom->TargetArmLength);
+	
+	//Lerp between -25 and -50 degrees based on the zoom level
+	const float TargetPitch = FMath::Lerp(-25.f, -50.f, ZoomAplha); //Lerp is used to smoothly transition between two values based on a given alpha value (0 to 1)
+
+	//Get the current rotation of the camera boom
+	FRotator CurrentRotation = CameraBoom->GetRelativeRotation();
+
+	//Interpolate the current pitch towards the target pitch based on the zoom speed and delta time
+	CurrentRotation.Pitch = FMath::FInterpTo(CurrentRotation.Pitch, TargetPitch, DeltaTime, ZoomSpeed);
+
+	//Set the yaw and roll to fixed values for isometric view
+	CurrentRotation.Yaw = -45.f;
+	CurrentRotation.Roll = 0.f;
+
+	//Apply the new rotation to the camera boom
+	CameraBoom->SetRelativeRotation(CurrentRotation);
 }
 
 void APaperZDPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
