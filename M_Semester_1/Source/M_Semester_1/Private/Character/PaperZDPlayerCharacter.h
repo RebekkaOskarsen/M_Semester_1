@@ -39,7 +39,7 @@ protected:
 
 	//Zoom mouse wheel
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
-	float ZoomSpeed = 5.f;
+	float ZoomSpeed = 1.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
 	float MinZoom = 600.f;
