@@ -47,6 +47,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
 	float MaxZoom = 1600.f;
 
+	//Zoom step is how much the zom changes per mouse wheel tick.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
 	float ZoomStep = 100.f;
 
