@@ -34,7 +34,7 @@ protected:
 
 	//It is the angle of the fall.
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Sign")
-	float FallAngle = 90.f;
+	float FallAngle = 45.f;
 
 	//It is the duration of the fall. Make it faster or slower.
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Sign")
