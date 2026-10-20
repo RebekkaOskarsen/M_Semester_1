@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/Levels/L_MainLevel.umap",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/trashbag_Mat.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/vanity.uasset",
+				"C:/Users/satur/OneDrive/Documents/GitHub/M_Semester_1/M_Semester_1/Content/2D_environment/Placeholders/vanity_Mat.uasset"
+			]
+		}
+	]
+}
