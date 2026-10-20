@@ -17,14 +17,14 @@ APaperZDPlayerCharacter::APaperZDPlayerCharacter()
 	//Camera setup: Isometric
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 1200.f;
+	CameraBoom->TargetArmLength = 800.f;
 	CameraBoom->bDoCollisionTest = false;
 
 	//Zoom settings
 	TargetZoom = CameraBoom->TargetArmLength;
 	
 	//Isometric perspective angle
-	CameraBoom->SetRelativeRotation(FRotator(-45.f, -45.f, 0.f));
+	CameraBoom->SetRelativeRotation(FRotator(-40.f, -40.f, 0.f));
 
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);

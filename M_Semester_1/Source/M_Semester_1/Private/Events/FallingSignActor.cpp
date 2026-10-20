@@ -74,7 +74,7 @@ void AFallingSignActor::Tick(float DeltaTime)
 	const float SmoothAlpha = FMath::InterpEaseInOut(0.f, 1.f, Alpha, 2.f);
 
 	FRotator NewRotation = InitialRotation;
-	NewRotation.Roll += FallAngle * SmoothAlpha;
+	NewRotation.Pitch += FallAngle * SmoothAlpha;
 	SignSprite->SetWorldRotation(NewRotation);
 
 	FVector NewLocation = InitialLocation;

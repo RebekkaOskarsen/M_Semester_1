@@ -39,13 +39,13 @@ protected:
 
 	//Zoom mouse wheel
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
-	float ZoomSpeed = 1.f;
+	float ZoomSpeed = 2.f;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+	float MinZoom = 300.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
-	float MinZoom = 600.f;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
-	float MaxZoom = 1600.f;
+	float MaxZoom = 800.f;
 
 	//Zoom step is how much the zom changes per mouse wheel tick.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
@@ -72,5 +72,5 @@ protected:
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override ;
 
 private:
-	float TargetZoom = 1200.f;
+	float TargetZoom = 800.f;
 };
