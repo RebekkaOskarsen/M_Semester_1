@@ -2001,3 +2001,40 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.21-09.32.58:963][393]LogHttp: Warning: 000001B8DEB8BD00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD0B9B60D-4934-728F-7DE6-E1AEA203B815%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=e24e8cbf40860c9e9b80749d784af1ab%7C3577886a02784df9b9d2950fd89f0678%7C2f6aa713-3c2b-4310-9a09-6cdf33a9ee79&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 21.81s
 [2026.10.21-09.32.58:963][393]LogStudioTelemetry: Ended StudioTelemetry Session
 [2026.10.21-09.32.58:977][393]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.10.21-09.32.59:821][393]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.10.21-09.32.59:821][393]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.21-09.32.59:821][393]LogAudio: Display: Audio Device unregistered from world 'L_MainLevel'.
+[2026.10.21-09.32.59:821][393]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.21-09.32.59:821][393]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.10.21-09.32.59:823][393]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.10.21-09.32.59:847][393]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.21-09.32.59:847][393]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.21-09.32.59:848][393]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.10.21-09.32.59:851][393]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.21-09.32.59:854][393]LogExit: Preparing to exit.
+[2026.10.21-09.32.59:905][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.10.21-09.33.00:369][393]LogEditorDataStorage: Deinitializing
+[2026.10.21-09.33.00:476][393]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.21-09.33.00:509][393]LogExit: Editor shut down
+[2026.10.21-09.33.00:512][393]LogExit: Transaction tracking system shut down
+[2026.10.21-09.33.00:694][393]LogExit: Object subsystem successfully closed.
+[2026.10.21-09.33.00:724][393]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.21-09.33.00:942][393]LogMemoryProfiler: Shutdown
+[2026.10.21-09.33.00:944][393]LogNetworkingProfiler: Shutdown
+[2026.10.21-09.33.00:944][393]LoadingProfiler: Shutdown
+[2026.10.21-09.33.00:945][393]LogTimingProfiler: Shutdown
+[2026.10.21-09.33.00:953][393]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.21-09.33.00:953][393]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.21-09.33.01:253][393]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.21-09.33.01:268][393]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.10.21-09.33.01:268][393]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD0B9B60D-4934-728F-7DE6-E1AEA203B815%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=e24e8cbf40860c9e9b80749d784af1ab%7C3577886a02784df9b9d2950fd89f0678%7C2f6aa713-3c2b-4310-9a09-6cdf33a9ee79&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.10.21-09.33.01:834][393]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.21-09.33.01:834][393]RenderDocPlugin: plugin has been unloaded.
+[2026.10.21-09.33.01:834][393]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.21-09.33.01:836][393]LogXGEController: Cleaning working directory: C:/Users/satur/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.10.21-09.33.01:839][393]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.10.21-09.33.01:839][393]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.10.21-09.33.01:839][393]LogPakFile: Destroying PakPlatformFile
+[2026.10.21-09.33.02:202][393]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.10.21-09.33.02:235][393]LogExit: Exiting.
+[2026.10.21-09.33.02:258][393]Log file closed, 10/21/26 11:33:02
