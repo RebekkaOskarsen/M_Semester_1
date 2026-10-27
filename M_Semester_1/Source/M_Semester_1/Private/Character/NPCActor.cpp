@@ -23,6 +23,18 @@ void ANPCActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (bIsPaused)
+	{
+		PauseTimer -= DeltaTime;
+		if (PauseTimer <= 0.0f)
+		{
+			bIsPaused = false;
+		}
+	}
+	else
+	{
+		MoveToTargets(DeltaTime);
+	}
 }
 
 void ANPCActor::MoveToTargets(float DeltaTime)
