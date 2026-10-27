@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\satur\\onedrive\\documents\\github\\m_semester_1\\m_semester_1\\source\\m_semester_1\\private\\events\\fallingsignactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\satur\\onedrive\\documents\\github\\m_semester_1\\m_semester_1\\intermediate\\build\\win64\\x64\\m_semester_1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_5.h.pch",
+        "Includes": [
+            "c:\\users\\satur\\onedrive\\documents\\github\\m_semester_1\\m_semester_1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\m_semester_1\\definitions.m_semester_1.h",
+            "c:\\users\\satur\\onedrive\\documents\\github\\m_semester_1\\m_semester_1\\source\\m_semester_1\\private\\events\\fallingsignactor.h",
+            "c:\\users\\satur\\onedrive\\documents\\github\\m_semester_1\\m_semester_1\\intermediate\\build\\win64\\unrealeditor\\inc\\m_semester_1\\uht\\fallingsignactor.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\paperspritecomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\paperspritecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
