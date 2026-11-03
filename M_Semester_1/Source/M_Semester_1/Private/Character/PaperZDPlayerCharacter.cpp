@@ -17,7 +17,7 @@ APaperZDPlayerCharacter::APaperZDPlayerCharacter()
 	//Camera setup: Isometric
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 800.f;
+	CameraBoom->TargetArmLength = 1000.f;
 	CameraBoom->bDoCollisionTest = false;
 
 	//Zoom settings
@@ -60,7 +60,7 @@ void APaperZDPlayerCharacter::Tick(float DeltaTime)
 		FVector2D(0.f, 1.f), CameraBoom->TargetArmLength);
 	
 	//Lerp between -25 and -50 degrees based on the zoom level
-	const float TargetPitch = FMath::Lerp(-25.f, -50.f, ZoomAplha); //Lerp is used to smoothly transition between two values based on a given alpha value (0 to 1)
+	const float TargetPitch = FMath::Lerp(-15.f, -20.f, ZoomAplha); //Lerp is used to smoothly transition between two values based on a given alpha value (0 to 1)
 
 	//Get the current rotation of the camera boom
 	FRotator CurrentRotation = CameraBoom->GetRelativeRotation();
