@@ -16,6 +16,7 @@ class UInputMappingContext;
 class UInputAction;
 class UInputComponent;
 struct FInputActionValue;
+class UUserWidget;
 
 UCLASS()
 class APaperZDPlayerCharacter : public APaperZDCharacter
@@ -68,9 +69,24 @@ protected:
 
 	void Zoom(const FInputActionValue& Value);
 
+	//---Pause input---//
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Input")
+	TObjectPtr<UInputAction> PauseAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "UI")
+	TSubclassOf<UUserWidget> PauseMenuClass;
+
+	void PauseMenu(const FInputActionValue& Value);
+
+	UFUNCTION(BlueprintCallable, Category = "UI")
+	void ClosePauseMenu();
+
 
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override ;
 
 private:
 	float TargetZoom = 1400.f;
+
+	UPROPERTY()
+	TObjectPtr<UUserWidget> PauseMenuWidget;
 };

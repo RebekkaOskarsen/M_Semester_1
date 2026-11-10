@@ -7,6 +7,9 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "Kismet/GameplayStatics.h"
+#include "Blueprint/UserWidget.h"
+#include "GameFramework/PlayerController.h"
 
 
 
@@ -85,6 +88,8 @@ void APaperZDPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &APaperZDPlayerCharacter::Move);
 		
 		EnhancedInputComponent->BindAction(ZoomAction, ETriggerEvent::Triggered, this, &APaperZDPlayerCharacter::Zoom);
+
+		EnhancedInputComponent->BindAction(PauseAction, ETriggerEvent::Started, this, &APaperZDPlayerCharacter::PauseMenu);
 	}
 
 }
@@ -117,4 +122,59 @@ void APaperZDPlayerCharacter::Zoom(const FInputActionValue& Value)
 	TargetZoom -= ZoomValue * ZoomStep;
 
 	TargetZoom = FMath::Clamp(TargetZoom, MinZoom, MaxZoom); //Clamp to not go over min and max zoom values
+}
+
+void APaperZDPlayerCharacter::PauseMenu(const FInputActionValue& Value)
+{
+	APlayerController* PlayerController = Cast<APlayerController>(GetController());
+	if (!PlayerController) return;
+
+	bool bIsPaused = UGameplayStatics::IsGamePaused(this);
+
+	if (!bIsPaused)
+	{
+		UGameplayStatics::SetGamePaused(this, true);
+
+		if(!PauseMenuWidget && PauseMenuClass)
+		{
+			PauseMenuWidget = CreateWidget<UUserWidget>(PlayerController, PauseMenuClass);
+			if (PauseMenuWidget)
+			{
+				PauseMenuWidget->AddToViewport();
+			}
+		}
+
+		if (PauseMenuWidget)
+		{
+			FInputModeUIOnly InputModeData;
+			InputModeData.SetWidgetToFocus(PauseMenuWidget->TakeWidget());
+			InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+
+			PlayerController->SetInputMode(InputModeData);
+			PlayerController->bShowMouseCursor = true;
+		}
+
+	}
+	else
+	{
+		ClosePauseMenu();
+	}
+}
+
+void APaperZDPlayerCharacter::ClosePauseMenu()
+{
+	UGameplayStatics::SetGamePaused(this, false);
+
+	if(PauseMenuWidget)
+	{
+		PauseMenuWidget->RemoveFromParent();
+		PauseMenuWidget = nullptr;
+	}
+
+	if(APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	{
+		FInputModeGameOnly InputModeData;
+		PlayerController->SetInputMode(InputModeData);
+		PlayerController->bShowMouseCursor = false;
+	}
 }
