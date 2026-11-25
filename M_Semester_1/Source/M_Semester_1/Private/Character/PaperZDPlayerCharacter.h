@@ -18,6 +18,9 @@ class UInputComponent;
 struct FInputActionValue;
 class UUserWidget;
 
+class UAudioComponent;
+class USoundBase;
+
 UCLASS()
 class APaperZDPlayerCharacter : public APaperZDCharacter
 {
@@ -84,9 +87,17 @@ protected:
 
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override ;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	TObjectPtr<UAudioComponent> WalkingAudioComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	TObjectPtr<USoundBase> WalkingSound;
+
 private:
 	float TargetZoom = 1400.f;
 
 	UPROPERTY()
 	TObjectPtr<UUserWidget> PauseMenuWidget;
+
+	bool bIsWalkingSoundPlaying = false;
 };

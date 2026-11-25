@@ -10,6 +10,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "Blueprint/UserWidget.h"
 #include "GameFramework/PlayerController.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundBase.h"
 
 
 
@@ -34,6 +36,12 @@ APaperZDPlayerCharacter::APaperZDPlayerCharacter()
 	FollowCamera->bUsePawnControlRotation = false;
 
 	FollowCamera->ProjectionMode = ECameraProjectionMode::Perspective;
+
+	//Walking Audio
+	WalkingAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("WalkingAudioComponent"));
+	WalkingAudioComponent->SetupAttachment(RootComponent);
+	WalkingAudioComponent->bAutoActivate = false;
+	WalkingAudioComponent->bIsUISound = false;
 
 }
 
@@ -77,6 +85,27 @@ void APaperZDPlayerCharacter::Tick(float DeltaTime)
 
 	//Apply the new rotation to the camera boom
 	CameraBoom->SetRelativeRotation(CurrentRotation);
+
+	if (WalkingAudioComponent && WalkingSound)
+	{
+		if (WalkingAudioComponent->Sound != WalkingSound)
+		{
+			WalkingAudioComponent->SetSound(WalkingSound);
+		}
+
+		const bool bIsMoving = GetVelocity().SizeSquared2D() > 1.0f;
+
+		if (bIsMoving && !bIsWalkingSoundPlaying)
+		{
+			WalkingAudioComponent->Play();
+			bIsWalkingSoundPlaying = true;
+		}
+		else if (!bIsMoving && bIsWalkingSoundPlaying)
+		{
+			WalkingAudioComponent->Stop();
+			bIsWalkingSoundPlaying = false;
+		}
+	}
 }
 
 void APaperZDPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
